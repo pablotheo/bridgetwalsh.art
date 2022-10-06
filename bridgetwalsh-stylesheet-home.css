@@ -6,9 +6,12 @@
 	body {
     background-position: center center;
   }
+  footer h1 {
+    text-align: center;
+  }
 }
 body {
-  background-image: url('media/FullSizeRender-3.jpg');
+  background-image: url('portfolio/FullSizeRender-3.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -38,7 +41,7 @@ nav ul li {
 }
 nav ul li a {
   display: block;
-  padding: 3em 3em;
+  padding: 1em 1em;
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -62,4 +65,17 @@ img {
 }
 .w3-row-padding img {
   margin-bottom: 12px
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: none;
+  color: white;
+  text-align: left;
+}
+footer h1 {
+  padding: 0 1em;
+  font-size: 50px;
 }
