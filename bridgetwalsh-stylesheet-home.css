@@ -68,7 +68,8 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: none;
-  color: white;
+  /* color: white; */
+  color:  #3e5990;
   text-align: left;
 }
 footer h1 {
