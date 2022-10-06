@@ -48,10 +48,7 @@ nav ul li a {
 nav ul li:first-child {
   margin-right: auto;
 }
-nav ul li a.logo:hover {
-  background-color: #3e5990;
-}
-nav ul li a:hover {
+nav ul li a.logo:hover, nav ul li a:hover {
   background-color: #3e5990;
 }
 header::after {

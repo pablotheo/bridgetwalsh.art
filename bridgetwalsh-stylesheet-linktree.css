@@ -1,0 +1,26 @@
+.linktree-container {
+    display: flex; /* establish flex container */
+    flex-direction: column; /* make main-axis vertical */
+    justify-content: center; /* align items vertically, in this case */
+    align-items: center; /* align items horizontally, in this case */
+    height: auto; 
+	padding-top: 150px;
+}
+.linktree-button {
+	margin-bottom: 25px;
+	padding: 15px 50px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	border-radius: 200px;
+	outline: none;
+	height: 40px;
+	line-height: 40px;
+	width: 200px;
+	font-size: 25px;
+}
+.linktree-button:hover {
+	background-color: #3e5990;
+	color:white;
+  }
