@@ -1,7 +1,7 @@
 /* uncomment below to see all the borders */
-/* * {
+* {
 	border: 1px solid red;
-} */
+}
 body {
   margin:0;
   background: linear-gradient(rgba(0,0,0,.5), rgba(255,255,255,0.4)),
@@ -14,7 +14,7 @@ body {
 header {
   margin: 0;
   border: 0;
-  background-color: rgba(255,255,255,0.25);
+  /* background-color: rgba(255,255,255,0.25); */
 }
 a {
 	text-decoration: none;
